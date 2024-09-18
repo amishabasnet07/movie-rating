@@ -1,0 +1,386 @@
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .navbar-logo img {
+    height: 126px;
+    width: 124px;
+  }
+  
+  .navbar-title {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .navbar-title h1 {
+    font-size: 15px;
+    margin:left;
+    color: orange;
+    padding-top: 75px;
+    margin-left: -119px;
+   
+      }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    font-size: 30px;
+    }
+  
+  .navbar-links li {
+    margin: 0 10px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding-right: 60px;
+  }
+  
+  .navbar-links li a:hover {
+    color: orangered;
+  }
+   .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 70px;
+    padding-left: 70px;
+  }
+  .mini{
+    font-size: medium;
+    text-align: left;
+    font-weight: lighter;
+    padding-left: 178px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+     }
+  .image {
+    margin-top: -200px;
+    float: right;
+     padding-left: 100px;   
+   }
+.rectangle {
+  width: 300px; 
+  height: 30px;
+  background-color: rgb(208, 117, 117); 
+  border: 2px purple; 
+  border-radius: 20px;
+ margin-left: 240px;
+ margin-top: 72px;
+}
+.text1 {
+  color: white; 
+  font-size: medium;
+  font-size:25px;
+  display: flex;  
+  justify-content: center; 
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif; 
+  line-height: -3;
+  letter-spacing: 2px;
+}
+.text2{
+  font-size:30px;
+  letter-spacing: 3px;
+  padding-left:80px;
+  margin-top: 60px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 65px; 
+  height: 45px; 
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.red {
+  background-color: rgb(207, 160, 160);
+}
+
+.black {
+  background-color: rgb(115, 110, 110);
+}
+
+.green {
+  background-color: rgb(162, 195, 162);
+}
+
+.blue {
+  background-color: rgb(165, 165, 187);
+}
+.line {
+  border-top: 3px solid black;
+  height: 20;
+  width:200px;
+  margin-top:100px;
+}
+
+.line-container {
+  text-align: center;
+  margin-bottom: 10px;  
+}
+
+.text3 {
+  position: relative;
+  top: -50px;
+  background-color: rgb(244, 240, 240);
+  padding: 10 5px;
+  font-size: 30px;
+}
+.l{
+  float:left;
+  margin-left:300px;
+}
+.l1{
+  float:right;
+ 
+}
+ .rectangle1 {
+  width: 360px; 
+  height: 125px;
+  border-radius: 10px;
+  margin-left: 210px;
+  margin-top:130px;
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: blur(2px);
+  color: white;
+  font-size: 18px;
+  justify-content: center;
+}
+ 
+
+.text4 {
+  color:rgb(228, 66, 93); 
+  font-size: small;
+  font-size:15px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  letter-spacing: 0.5px;
+  justify-content: center;
+  font-style: oblique;
+}
+.rectangle2 {
+  width: 360px; 
+  height: 125px;
+  border-radius: 10px;
+  margin-left: 885px;
+  margin-top:-130px;
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: blur(2px);
+  color: white;
+  font-size: 18px;
+  justify-content: center;
+  font-style: oblique;
+}
+body {
+  border: 20px solid rgb(169, 167, 167);
+  margin: 5;
+  padding: 50;
+}
+
+.rectangle3 {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  border: 5px solid rgb(216, 212, 213);
+  margin-left: 210px;
+  margin-top:40px;
+  background-color: rgb(222, 200, 204);
+  border-radius: 18px;
+}  
+.rectangle3 h2{
+  color: red;
+  padding-left: 60px;
+  font-weight: semibold;
+  font-size: 20px;
+} 
+.rectangle3 .left_image,
+.rectangle3 .center_image,
+.rectangle3 .right_image {
+ position: absolute;
+  top: 50%;
+ 
+}
+
+.rectangle3 .left_image img{
+ 
+ margin-top:-180px;
+ height: auto;
+ width:200px;
+ padding-left: 90px;
+}
+
+.rectangle3 .center_image img  {
+  margin-top:-20px;
+  height: auto;
+  width: 250px;
+  padding-left: 400px;
+ }
+
+.rectangle3 .right_image img {
+  margin-top:-180px;
+  height: auto;
+  width: 200px;
+  padding-left: 775px;
+}
+.smallrectangle{
+  position: absolute;
+  width:250px; 
+  height: 300px;
+  border: 6px solid #4e39b7;
+  margin-top: -262px;
+  padding-left: 2px;
+  padding-top: -165px;
+  margin-right: 100px;
+  margin-left: 60px;
+}
+.container1 {
+   width: 250px;
+   height: 200px; } 
+
+.rectangle4 {
+  width: 110%;
+  height: 90%;
+  border: 1px solid rgb(247, 245, 248);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 210px;
+  margin-top:60px;
+  background-color: rgb(240, 249, 252);
+  border-radius: 20px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+  color:orange; 
+  padding: -30px;
+  font-family:Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.text5 {
+  font-size: 14px;
+  margin-top: -10px; 
+  justify-content: center;
+  font-style: oblique;
+  color: #4e39b7;
+  filter: blur(1px);
+}
+.container2 {
+  width: 250px; 
+  height: 200px; 
+}
+
+.big-rectangle {
+  width: 110%;
+  height: 90%;
+  border: 2px solid rgb(240, 240, 249);
+  padding: -38px; 
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgb(242, 248, 250);
+  margin-top:-200px;
+  margin-left: 610px;
+}
+
+.heading1 {
+  font-weight: bolder;
+  font-size: 20px; 
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.small-rectangle {
+  border: 3px solid rgb(223, 212, 192);
+  padding: 10px;
+  margin-top: 9px; 
+  border-radius: 10px;
+  width: 100px;
+  height: 0px;
+  background-color: rgb(242, 227, 200);
+  margin-left: 75px;
+}
+
+.text6 {
+  font-size: 13px; 
+  margin-top: -10px;
+text-align: center;
+color:grey ;
+}
+
+.inf .image1 {
+  height: 19px;
+  width: 16px;
+  padding-left: 50px;
+}
+.inf{
+  font-size: 14px; 
+  margin-top: -5px;
+}
+
+.container3 {
+  width: 250px; 
+  height: 200px;
+}
+
+.rectangle5 {
+  border: 1px solid rgb(237, 228, 228) ;
+  width: 110%;
+  height: 90%; 
+  padding: -38px;  
+  border-radius: 20px;
+  background-color: rgb(242, 243, 243);
+  margin-top:-200px;
+  margin-left: 1000px;
+
+}
+
+.heading2 {
+  font-weight: bolder;
+  font-size: 20px; 
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.logo2 {
+  height: 30px;
+  width: 90px;
+  }
+
+.heading3 {
+  margin-bottom: 10px; 
+  font-weight: bolder;
+  font-size: 20px; 
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.app-store {
+  display: flex;
+  justify-content: center;
+ }
+
+.logo1 {
+  width: 20px;
+  height: auto;
+  margin-right: 10px; 
+}
